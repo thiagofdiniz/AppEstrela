@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login_Activity" android:theme="@style/sembarra"></activity>
+        <activity
+            android:name=".PaginaInicial_Activity"
+            android:theme="@style/sembarra">
+        </activity>
+        <activity
+            android:name=".Login_Activity"
+            android:theme="@style/sembarra" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/sembarra">
