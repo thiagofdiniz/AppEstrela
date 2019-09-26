@@ -7,13 +7,12 @@
     android:orientation="vertical"
     tools:context=".PaginaInicial_Activity">
 
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/idToolBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-
-        >
+        android:background="@color/colorPrimary">
 
         <TextView
             android:layout_width="match_parent"
@@ -45,5 +44,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Download" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"
+        android:elevation="8dp"
+        android:src="@drawable/ic_save" />
 
 </LinearLayout>

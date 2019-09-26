@@ -1,5 +1,6 @@
 package br.com.etecia.appestrela;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,11 +33,12 @@ public class PaginaInicial_Activity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.mCadastrar:
-                Toast.makeText(getApplicationContext(), "Cliqiei no cadastrar",
+                Toast.makeText(getApplicationContext(), "Cliquei no cadastrar",
                         Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(), Login_Activity.class));
                 break;
 
             case R.id.mAlterar:
