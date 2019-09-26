@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".PaginaInicial_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/idToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+
+        ><TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TESTANDO"
+        /></android.support.v7.widget.Toolbar>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

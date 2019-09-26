@@ -12,18 +12,20 @@
         <activity
             android:name=".PaginaInicial_Activity"
             android:theme="@style/sembarra">
-        </activity>
-        <activity
-            android:name=".Login_Activity"
-            android:theme="@style/sembarra" />
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/sembarra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login_Activity"
+            android:theme="@style/sembarra" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/sembarra">
+
         </activity>
     </application>
 
