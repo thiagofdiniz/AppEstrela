@@ -13,16 +13,20 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
 
-        ><TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TESTANDO"
-        /></android.support.v7.widget.Toolbar>
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TESTANDO" />
+    </android.support.v7.widget.Toolbar>
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/quadrado"
-        android:layout_marginRight="291dp" />
+        android:layout_marginRight="291dp"
+        android:src="@drawable/quadrado" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,16 +34,16 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Imagem de perfil:"/>
+        android:text="Imagem de perfil:" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Download"/>
+        android:text="Download" />
 
 </LinearLayout>
