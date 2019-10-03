@@ -18,34 +18,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
-            android:text="Logar"
             android:fontFamily="sans-serif-medium"
+            android:text="Logar"
             android:textColor="#fff"
             android:textSize="25dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
             android:text="Nome de Usuário/E-mail"
             android:textColor="#fff"
-            android:textSize="18dp"
-            android:fontFamily="sans-serif-medium"
-            />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
-            android:background="#F7A597"
-            android:inputType="textEmailAddress"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Senha"
-            android:textColor="#fff"
-            android:fontFamily="sans-serif-medium"
             android:textSize="18dp" />
 
         <EditText
@@ -53,8 +36,22 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
             android:background="#F7A597"
-            android:inputType="textPassword"
-            />
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Senha"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="#F7A597"
+            android:inputType="textPassword" />
 
 
         <LinearLayout

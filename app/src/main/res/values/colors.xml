@@ -5,4 +5,7 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="fundo">#D56F63</color>
+    <color name="fundodown">#F7A597</color>
+
+
 </resources>

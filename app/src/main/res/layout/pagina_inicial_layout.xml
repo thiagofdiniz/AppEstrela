@@ -12,7 +12,7 @@
         android:id="@+id/idToolBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary">
+        android:background="@color/fundo">
 
         <TextView
             android:layout_width="match_parent"
@@ -20,59 +20,193 @@
             android:text="TESTANDO" />
     </android.support.v7.widget.Toolbar>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/fundodown"
+        android:orientation="vertical">
+
+        <EditText
+            style="@style/StyledTilEditTextTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:height="65dp"
+            android:backgroundTint="@color/fundo"
+            android:drawableEnd="@drawable/ic_search"
+            android:hint="Caixa de Pesquisa"
+            android:textColorHint="@color/fundo"
+            android:textSize="16dp" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="20dp">
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <View
-                android:layout_width="210dp"
-                android:layout_height="200dp"
-                android:background="@drawable/quadrado"
-
-                />
+            android:orientation="vertical"
+            android:padding="15dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingLeft="10dp">
+                android:orientation="horizontal">
 
-                <TextView
+                <View
+                    android:layout_width="210dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/quadrado"
+
+                    />
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Preço" />
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:text="Preço: "
+                        android:textColor="@color/fundodown" />
 
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:height="20dp" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/fundodown"
+                        android:padding="0dp" />
 
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Imagem de perfil:" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:text="Imagem ID:"
+                        android:textColor="@color/fundodown" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:height="20dp" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/fundodown"
+                        android:padding="0dp" />
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="62dp"
-                    android:text="Download" />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="51.8dp"
+                        android:background="@color/fundodown"
+                        android:text="Download"
+                        android:textColor="#FFF" />
+                </LinearLayout>
             </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/linha" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Dono: "
+                android:textColor="@color/fundodown"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Descrição: "
+                android:textColor="@color/fundodown"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                android:textColor="@color/fundodown"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/linha" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/fundo" />
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/fundo" />
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/fundo" />
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/fundo" />
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/fundo" />
+
+
+            </LinearLayout>
+
         </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fundodown"
+        android:orientation="vertical">
+
+
     </LinearLayout>
 </LinearLayout>
+
+
